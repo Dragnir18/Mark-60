@@ -3,7 +3,7 @@ import { useAuthStore } from '../../stores/authStore';
 import { useTechnicalRequestStore } from '../../stores/technicalRequestStore';
 import { format } from 'date-fns';
 import { fr } from 'date-fns/locale';
-import { Clock, Calendar, User, Tool } from 'lucide-react';
+import { Clock, Calendar, User, PenTool as Tool } from 'lucide-react';
 
 const ServiceRequests: React.FC = () => {
   const user = useAuthStore((state) => state.user);
